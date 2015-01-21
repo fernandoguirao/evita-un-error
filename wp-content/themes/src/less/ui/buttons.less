@@ -1,0 +1,24 @@
+.btn {
+  .border-radius(none);
+  .font(@altfont);
+  &.dark {
+    background-color: @dark;
+    color:@light;
+  }
+  &.dark2 {
+    background-color: @dark2;
+    color:@light;
+    &:hover {
+      background-color:darken(@dark2,5%);
+      color:white;
+    }
+  }
+  &.purple {
+    background-color:@purple;
+    color:@light;
+    &:hover {
+      background-color:darken(@purple,5%);
+      color:white;
+    }
+  }
+}

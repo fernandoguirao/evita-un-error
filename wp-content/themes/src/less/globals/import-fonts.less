@@ -1,0 +1,11 @@
+.font-face(@fontName,@fontSlug,@fontStyle,@fontWeight) {
+  font-family: @fontName;
+  @urls: %("../fonts/%s.otf", @fontSlug);
+  src: url(@urls);
+  font-style: @fontStyle;
+  font-weight: @fontWeight;
+}
+
+/*@font-face {
+  .font-face ('Brandon', 'Brandon_med_it', italic, 600);
+}*/

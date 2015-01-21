@@ -1,0 +1,34 @@
+@assetsize-w:600px; 
+@assetsize-h:300px;
+.img-assets() {
+  background-image:url('../images/assets.png');
+  background-size:@assetsize-w/2 @assetsize-h/2;
+}
+
+.img-logo {
+  .img-assets();
+  width:135px;
+  height:60px;
+  background-position: 0 0;
+}
+
+.img-logo2 {
+  .img-assets();
+  width:135px;
+  height:60px;
+  background-position: -150px 0;
+}
+
+.img-thumbup {
+  .img-assets();
+  width:70px;
+  height:70px;
+  background-position: 0 -75px;
+}
+
+.img-thumbdown {
+  .img-assets();
+  width:70px;
+  height:70px;
+  background-position: -100px -75px;
+}

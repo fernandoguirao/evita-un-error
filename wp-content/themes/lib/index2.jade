@@ -1,0 +1,23 @@
+doctype
+html.no-js
+  head
+    include ./includes/head.jade
+
+  body
+    <!--[if lt IE 8]>
+    p.browsehappy
+      | You are using an <strong>outdated</strong> browser.
+      | Please <a href="http://browsehappy.com/">upgrade your browser</a>
+      | to improve your experience.
+    <![endif]-->
+    //- Content
+    //- p ooo #{title}
+    #main-layout
+      include ./includes/sidebar.jade
+
+      .main-content.col-sm-9
+        include ./includes/topbar.jade
+        include ./pages/single.jade
+        include ./includes/footer.jade
+        
+    include ./includes/foot.jade

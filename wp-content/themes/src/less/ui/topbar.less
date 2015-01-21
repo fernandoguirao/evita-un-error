@@ -1,0 +1,60 @@
+#topbar {
+  z-index:3;
+  position: relative;
+  i {
+    color:white;
+  }
+  .fa-remove {
+    display: inherit;
+  }
+  .fa-bars {
+    display: none;
+  }
+  .collapsed {
+    .fa-remove {
+      display: none;
+    }
+    .fa-bars {
+      display: inherit;
+    }
+  }
+  ul.nav {
+    right: 0;
+    position: absolute;
+    .user {
+      margin-right: 28px;
+      .avatar {
+        .border-radius(100px);
+        .background-size(cover);
+        width:35px;
+        height:35px;
+        border:2px solid white;
+        display: inline-block;
+        margin-top: 4px;
+        margin-right: 34px;
+      }
+      p {
+        .font(@altfont);
+        color:white;
+        display: inline-block;
+        top: -12px;
+        position: relative;
+        left: -22px;
+        i {
+          color:white;
+          margin-left:8px;
+        }
+      }
+    }
+    .btn {
+      font-size: 18px;
+      padding: 8px 40px;
+      span {
+        color:white;
+        font-size: 14px;
+        position: relative;
+        left: 19px;
+      }
+    }
+  }
+}
