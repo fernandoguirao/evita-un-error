@@ -21,14 +21,14 @@ var gulp = require('gulp'),
 // LESS
 
 gulp.task('less', function() {
-  gulp.src('./src/less/style.less')
+  gulp.src('./src/less/*.less')
   .pipe(less({
     compress: true
   }))
   .pipe(combineMediaQueries())
   .pipe(autoprefixer())
   .pipe(cssmin())
-  .pipe(gulp.dest('./evita-un-error/'))
+  .pipe(gulp.dest('./evita-un-error/assets/css'))
   .pipe(browserSync.reload({stream:true}))
   .pipe(notify({ message: 'less compiled' }));
 });
@@ -86,7 +86,7 @@ gulp.task('watch', ['browser-sync'], function() {
 });
 
 gulp.task('browser-sync', function() {
-    browserSync.init(['./evita-un-error/style.css', './evita-un-error/assets/js/**.*'], {
+    browserSync.init(['./evita-un-error/assets/css/**.*', './evita-un-error/assets/js/**.*'], {
         // SI NO HAY SERVIDOR EXTERNO:
         // server: {
         //     baseDir: './evitaunerror/'

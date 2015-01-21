@@ -5,6 +5,14 @@
     </head>
 {% endblock %}
     <body class="{{body_class}}" data-template="base.twig">
+        <!--[if lt IE 8]>
+        <p class="browsehappy">
+          You are using an <strong>outdated</strong> browser.
+          Please <a href="http://browsehappy.com/">upgrade your browser</a>
+          to improve your experience.
+        </p><![endif]-->
+        {% include 'pages/home/home.twig' %}
+        {% include 'pages/single/single.twig' %}
         <header class="header" >yyyyyyy
             {% block header %}
             <div class="wrapper">
