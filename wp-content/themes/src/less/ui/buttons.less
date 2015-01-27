@@ -1,9 +1,20 @@
 .btn {
   .border-radius(none);
   .font(@altfont);
+  &.facebook {
+    font-size: 18px;
+    padding: 8px 40px;
+    background-color: #4e69a2;
+    color: white;
+    margin-bottom: 29px;
+  }
   &.dark {
     background-color: @dark;
     color:@light;
+    .transition(background-color,.05s);
+    &:hover {
+      background-color:@purple;
+    }
   }
   &.dark2 {
     background-color: @dark2;
@@ -16,9 +27,37 @@
   &.purple {
     background-color:@purple;
     color:@light;
-    &:hover {
+    &:hover,&:focus,&:active {
       background-color:darken(@purple,5%);
       color:white;
     }
+  }
+  .fa-angle-right {
+    right:2px;
+    position: relative;
+    .transition(right,.1s);
+  }
+  &:hover {
+    .fa-angle-right {
+      right:-4px;
+    }
+  }
+}
+
+.link {
+  color: @purple;
+  margin: 0 14px;
+  font-size: 18px;
+  font-family: @altfont;
+  padding-bottom:0px;
+  padding-left:0;
+  padding-right:0;
+  height:38px;
+  text-decoration: none;
+  &:hover {
+    background-color:transparent!important;
+    border-bottom:1px solid @dark;
+    text-decoration: none;
+    color: @purple;
   }
 }

@@ -1,0 +1,1945 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Profile Builder v2.1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2015-01-24 09:36:57+0000\n"
+"Last-Translator: fernandoguirao <fernando@bueninvento.es>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: CSL v1.x\n"
+"X-Poedit-Language: Spanish\n"
+"X-Poedit-Country: SPAIN\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: admin/admin-bar.php:10
+#@ profilebuilder
+msgid "Show/Hide the Admin Bar on the Front-End"
+msgstr ""
+
+#: admin/admin-bar.php:10
+#: admin/admin-bar.php:47
+#@ profilebuilder
+msgid "Admin Bar Settings"
+msgstr ""
+
+#: admin/admin-bar.php:48
+#@ profilebuilder
+msgid "Choose which user roles view the admin bar in the front-end of the website."
+msgstr ""
+
+#: admin/admin-bar.php:57
+#@ profilebuilder
+msgid "User-Role"
+msgstr ""
+
+#: admin/admin-bar.php:58
+#@ profilebuilder
+msgid "Visibility"
+msgstr ""
+
+#: admin/admin-bar.php:73
+#@ profilebuilder
+msgid "Default"
+msgstr ""
+
+#: admin/admin-bar.php:74
+#@ profilebuilder
+msgid "Show"
+msgstr ""
+
+#: admin/admin-bar.php:75
+#@ profilebuilder
+msgid "Hide"
+msgstr ""
+
+#: admin/admin-bar.php:86
+#: admin/general-settings.php:189
+#: admin/register-version.php:95
+#: features/functions.php:581
+#@ default
+#@ profilebuilder
+msgid "Save Changes"
+msgstr ""
+
+#: admin/admin-functions.php:34
+#, php-format
+#@ profilebuilder
+msgid "Login is set to be done using the E-mail. This field will NOT appear in the front-end! ( you can change these settings under the \"%s\" tab )"
+msgstr ""
+
+#: admin/admin-functions.php:34
+#: admin/general-settings.php:10
+#: admin/general-settings.php:38
+#@ profilebuilder
+msgid "General Settings"
+msgstr ""
+
+#: admin/admin-functions.php:106
+#, php-format
+#@ profilebuilder
+msgid "<strong>ERROR</strong>: The password must have the minimum length of %s characters"
+msgstr ""
+
+#: admin/admin-functions.php:112
+#: admin/general-settings.php:175
+#@ profilebuilder
+msgid "Very weak"
+msgstr ""
+
+#: admin/admin-functions.php:112
+#: admin/general-settings.php:176
+#: features/functions.php:480
+#@ profilebuilder
+msgid "Weak"
+msgstr ""
+
+#: admin/admin-functions.php:112
+#: admin/general-settings.php:177
+#: features/functions.php:480
+#@ profilebuilder
+msgid "Medium"
+msgstr ""
+
+#: admin/admin-functions.php:112
+#: admin/general-settings.php:178
+#: features/functions.php:480
+#@ profilebuilder
+msgid "Strong"
+msgstr ""
+
+#: admin/admin-functions.php:123
+#, php-format
+#@ profilebuilder
+msgid "<strong>ERROR</strong>: The password must have a minimum strength of %s"
+msgstr ""
+
+#: admin/admin-functions.php:162
+#@ profilebuilder
+msgid "Add Field"
+msgstr ""
+
+#: admin/admin-functions.php:164
+#@ profilebuilder
+msgid "Save Settings"
+msgstr ""
+
+#: admin/basic-info.php:10
+#@ profilebuilder
+msgid "Basic Information"
+msgstr ""
+
+#: admin/basic-info.php:29
+#, php-format
+#@ default
+msgid "Version %s"
+msgstr ""
+
+#: admin/basic-info.php:30
+#, php-format
+#@ profilebuilder
+msgid "<strong>Profile Builder </strong> <small>v.</small>%s"
+msgstr ""
+
+#: admin/basic-info.php:31
+#@ profilebuilder
+msgid "The best way to add front-end registration, edit profile and login forms."
+msgstr ""
+
+#: admin/basic-info.php:33
+#@ profilebuilder
+msgid "For Modern User Interaction"
+msgstr ""
+
+#: admin/basic-info.php:36
+#: features/login-widget/login-widget.php:59
+#@ profilebuilder
+msgid "Login"
+msgstr ""
+
+#: admin/basic-info.php:37
+#@ profilebuilder
+msgid "Friction-less login using <strong class=\"nowrap\">[wppb-login]</strong> shortcode or a widget."
+msgstr ""
+
+#: admin/basic-info.php:40
+#@ profilebuilder
+msgid "Registration"
+msgstr ""
+
+#: admin/basic-info.php:41
+#@ profilebuilder
+msgid "Beautiful registration forms fully customizable using the <strong class=\"nowrap\">[wppb-register]</strong> shortcode."
+msgstr ""
+
+#: admin/basic-info.php:44
+#@ profilebuilder
+msgid "Edit Profile"
+msgstr ""
+
+#: admin/basic-info.php:45
+#@ profilebuilder
+msgid "Straight forward edit profile forms using <strong class=\"nowrap\">[wppb-edit-profile]</strong> shortcode."
+msgstr ""
+
+#: admin/basic-info.php:51
+#@ profilebuilder
+msgid "Extra Features"
+msgstr ""
+
+#: admin/basic-info.php:52
+#@ profilebuilder
+msgid "Features that give you more control over your users, increased security and help you fight user registration spam."
+msgstr ""
+
+#: admin/basic-info.php:53
+#@ profilebuilder
+msgid "Enable extra features"
+msgstr ""
+
+#: admin/basic-info.php:57
+#@ profilebuilder
+msgid "Recover Password"
+msgstr ""
+
+#: admin/basic-info.php:58
+#@ profilebuilder
+msgid "Allow users to recover their password in the front-end using the [wppb-recover-password]."
+msgstr ""
+
+#: admin/basic-info.php:61
+#@ profilebuilder
+msgid "Admin Approval (*)"
+msgstr ""
+
+#: admin/basic-info.php:62
+#@ profilebuilder
+msgid "You decide who is a user on your website. Get notified via email or approve multiple users at once from the WordPress UI."
+msgstr ""
+
+#: admin/basic-info.php:65
+#@ profilebuilder
+msgid "Email Confirmation"
+msgstr ""
+
+#: admin/basic-info.php:66
+#@ profilebuilder
+msgid "Make sure users sign up with genuine emails. On registration users will receive a notification to confirm their email address."
+msgstr ""
+
+#: admin/basic-info.php:69
+#@ profilebuilder
+msgid "Minimum Password Length and Strength Meter"
+msgstr ""
+
+#: admin/basic-info.php:70
+#@ profilebuilder
+msgid "Eliminate weak passwords altogether by setting a minimum password length and enforcing a certain password strength."
+msgstr ""
+
+#: admin/basic-info.php:73
+#@ profilebuilder
+msgid "Login with Email or Username"
+msgstr ""
+
+#: admin/basic-info.php:74
+#@ profilebuilder
+msgid "Allow users to log in with their email or username when accessing your site."
+msgstr ""
+
+#: admin/basic-info.php:87
+#@ profilebuilder
+msgid "Customize Your Forms The Way You Want (*)"
+msgstr ""
+
+#: admin/basic-info.php:88
+#@ profilebuilder
+msgid "With Extra Profile Fields you can create the exact registration form your project needs."
+msgstr ""
+
+#: admin/basic-info.php:90
+#@ profilebuilder
+msgid "Extra Profile Fields are available in Hobbyist or PRO versions"
+msgstr ""
+
+#: admin/basic-info.php:92
+#@ profilebuilder
+msgid "Get started with extra fields"
+msgstr ""
+
+#: admin/basic-info.php:95
+#@ profilebuilder
+msgid "Avatar Upload"
+msgstr ""
+
+#: admin/basic-info.php:96
+#@ profilebuilder
+msgid "Generic Uploads"
+msgstr ""
+
+#: admin/basic-info.php:97
+#@ profilebuilder
+msgid "Agree To Terms Checkbox"
+msgstr ""
+
+#: admin/basic-info.php:98
+#@ profilebuilder
+msgid "Datepicker"
+msgstr ""
+
+#: admin/basic-info.php:99
+#@ profilebuilder
+msgid "reCAPTCHA"
+msgstr ""
+
+#: admin/basic-info.php:100
+#@ profilebuilder
+msgid "Country Select"
+msgstr ""
+
+#: admin/basic-info.php:101
+#@ profilebuilder
+msgid "Timezone Select"
+msgstr ""
+
+#: admin/basic-info.php:102
+#@ profilebuilder
+msgid "Input / Hidden Input"
+msgstr ""
+
+#: admin/basic-info.php:103
+#@ profilebuilder
+msgid "Checkbox"
+msgstr ""
+
+#: admin/basic-info.php:104
+#@ profilebuilder
+msgid "Select"
+msgstr ""
+
+#: admin/basic-info.php:105
+#@ profilebuilder
+msgid "Radio Buttons"
+msgstr ""
+
+#: admin/basic-info.php:106
+#@ profilebuilder
+msgid "Textarea"
+msgstr ""
+
+#: admin/basic-info.php:115
+#@ profilebuilder
+msgid "Powerful Modules (**)"
+msgstr ""
+
+#: admin/basic-info.php:116
+#@ profilebuilder
+msgid "Everything you will need to manage your users is probably already available using the Pro Modules."
+msgstr ""
+
+#: admin/basic-info.php:118
+#@ profilebuilder
+msgid "Enable your modules"
+msgstr ""
+
+#: admin/basic-info.php:121
+#@ profilebuilder
+msgid "Find out more about PRO Modules"
+msgstr ""
+
+#: admin/basic-info.php:126
+#@ profilebuilder
+msgid "User Listing"
+msgstr ""
+
+#: admin/basic-info.php:128
+#@ profilebuilder
+msgid "Easy to edit templates for listing your website users as well as creating single user pages. Shortcode based, offering many options to customize your listings."
+msgstr ""
+
+#: admin/basic-info.php:130
+#@ profilebuilder
+msgid "To create a page containing the users registered to this current site/blog, insert the following shortcode in a page of your chosing: <strong class=\"nowrap\">[wppb-list-users]</strong>."
+msgstr ""
+
+#: admin/basic-info.php:134
+#@ profilebuilder
+msgid "Email Customizer"
+msgstr ""
+
+#: admin/basic-info.php:135
+#@ profilebuilder
+msgid "Personalize all emails sent to your users or admins. On registration, email confirmation, admin approval / un-approval."
+msgstr ""
+
+#: admin/basic-info.php:138
+#@ profilebuilder
+msgid "Custom Redirects"
+msgstr ""
+
+#: admin/basic-info.php:139
+#@ profilebuilder
+msgid "Keep your users out of the WordPress dashboard, redirect them to the front-page after login or registration, everything is just a few clicks away."
+msgstr ""
+
+#: admin/basic-info.php:144
+#@ profilebuilder
+msgid "Multiple Registration Forms"
+msgstr ""
+
+#: admin/basic-info.php:145
+#@ profilebuilder
+msgid "Set up multiple registration forms with different fields for certain user roles. Capture different information from different types of users."
+msgstr ""
+
+#: admin/basic-info.php:148
+#@ profilebuilder
+msgid "Multiple Edit-profile Forms"
+msgstr ""
+
+#: admin/basic-info.php:149
+#@ profilebuilder
+msgid "Allow different user roles to edit their specific information. Set up multiple edit-profile forms with different fields for certain user roles."
+msgstr ""
+
+#: admin/basic-info.php:161
+#, php-format
+#@ profilebuilder
+msgid " * only available in the %1$sHobbyist and Pro versions%2$s."
+msgstr ""
+
+#: admin/basic-info.php:162
+#, php-format
+#@ profilebuilder
+msgid "** only available in the %1$sPro version%2$s."
+msgstr ""
+
+#: admin/general-settings.php:42
+#@ profilebuilder
+msgid "Load Profile Builder's own CSS file in the front-end:"
+msgstr ""
+
+#: admin/general-settings.php:45
+#: admin/general-settings.php:60
+#: admin/general-settings.php:114
+#@ profilebuilder
+msgid "Yes"
+msgstr ""
+
+#: admin/general-settings.php:47
+#, php-format
+#@ profilebuilder
+msgid "You can find the default file here: %1$s"
+msgstr ""
+
+#: admin/general-settings.php:56
+#@ profilebuilder
+msgid "\"Email Confirmation\" Activated:"
+msgstr ""
+
+#: admin/general-settings.php:61
+#: admin/general-settings.php:115
+#@ profilebuilder
+msgid "No"
+msgstr ""
+
+#: admin/general-settings.php:64
+#@ profilebuilder
+msgid "On single-site installations this works with front-end forms only. Recommended to redirect WP default registration to a Profile Builder one using \"Custom Redirects\" addon."
+msgstr ""
+
+#: admin/general-settings.php:65
+#@ profilebuilder
+msgid "The \"Email Confirmation\" feature is active (by default) on WPMU installations."
+msgstr ""
+
+#: admin/general-settings.php:67
+#, php-format
+#@ profilebuilder
+msgid "You can find a list of unconfirmed email addresses %1$sUsers > All Users > Email Confirmation%2$s."
+msgstr ""
+
+#: admin/general-settings.php:79
+#@ profilebuilder
+msgid "\"Email Confirmation\" Landing Page:"
+msgstr ""
+
+#: admin/general-settings.php:84
+#@ profilebuilder
+msgid "Existing Pages"
+msgstr ""
+
+#: admin/general-settings.php:99
+#@ profilebuilder
+msgid "Specify the page where the users will be directed when confirming the email account. This page can differ from the register page(s) and can be changed at any time. If none selected, a simple confirmation page will be displayed for the user."
+msgstr ""
+
+#: admin/general-settings.php:110
+#@ profilebuilder
+msgid "\"Admin Approval\" Activated:"
+msgstr ""
+
+#: admin/general-settings.php:118
+#, php-format
+#@ profilebuilder
+msgid "You can find a list of users at %1$sUsers > All Users > Admin Approval%2$s."
+msgstr ""
+
+#: admin/general-settings.php:130
+#@ profilebuilder
+msgid "\"Admin Approval\" Feature:"
+msgstr ""
+
+#: admin/general-settings.php:133
+#, php-format
+#@ profilebuilder
+msgid "You decide who is a user on your website. Get notified via email or approve multiple users at once from the WordPress UI. Enable Admin Approval by upgrading to %1$sHobbyist or PRO versions%2$s."
+msgstr ""
+
+#: admin/general-settings.php:140
+#@ profilebuilder
+msgid "Allow Users to Log in With:"
+msgstr ""
+
+#: admin/general-settings.php:144
+#@ profilebuilder
+msgid "Username and Email"
+msgstr ""
+
+#: admin/general-settings.php:145
+#: admin/manage-fields.php:144
+#: features/email-confirmation/class-email-confirmation.php:165
+#@ profilebuilder
+msgid "Username"
+msgstr ""
+
+#: admin/general-settings.php:146
+#: front-end/login.php:167
+#@ profilebuilder
+msgid "Email"
+msgstr ""
+
+#: admin/general-settings.php:149
+#@ profilebuilder
+msgid "\"Username and Email\" - users can Log In with both Username and Email."
+msgstr ""
+
+#: admin/general-settings.php:150
+#@ profilebuilder
+msgid "\"Username\" - users can Log In only with Username."
+msgstr ""
+
+#: admin/general-settings.php:151
+#@ profilebuilder
+msgid "\"Email\" - users can Log In only with Email."
+msgstr ""
+
+#: admin/general-settings.php:158
+#@ profilebuilder
+msgid "Minimum Password Length:"
+msgstr ""
+
+#: admin/general-settings.php:163
+#@ profilebuilder
+msgid "Enter the minimum characters the password should have. Leave empty for no minimum limit"
+msgstr ""
+
+#: admin/general-settings.php:170
+#@ profilebuilder
+msgid "Minimum Password Strength:"
+msgstr ""
+
+#: admin/general-settings.php:174
+#@ profilebuilder
+msgid "Disabled"
+msgstr ""
+
+#: admin/manage-fields.php:12
+#@ profilebuilder
+msgid "Manage Fields"
+msgstr ""
+
+#: admin/manage-fields.php:13
+#@ profilebuilder
+msgid "Manage Default and Extra Fields"
+msgstr ""
+
+#: admin/manage-fields.php:83
+#@ profilebuilder
+msgid "Field Title"
+msgstr ""
+
+#: admin/manage-fields.php:83
+#@ profilebuilder
+msgid "Title of the field"
+msgstr ""
+
+#: admin/manage-fields.php:84
+#@ profilebuilder
+msgid "Field"
+msgstr ""
+
+#: admin/manage-fields.php:85
+#@ profilebuilder
+msgid "Meta-name"
+msgstr ""
+
+#: admin/manage-fields.php:85
+#@ profilebuilder
+msgid "Use this in conjuction with WordPress functions to display the value in the page of your choosing<br/>Auto-completed but in some cases editable (in which case it must be uniqe)<br/>Changing this might take long in case of a very big user-count"
+msgstr ""
+
+#: admin/manage-fields.php:86
+#@ profilebuilder
+msgid "ID"
+msgstr ""
+
+#: admin/manage-fields.php:86
+#@ profilebuilder
+msgid "A unique, auto-generated ID for this particular field<br/>You can use this in conjuction with filters to target this element if needed<br/>Can't be edited"
+msgstr ""
+
+#: admin/manage-fields.php:87
+#@ profilebuilder
+msgid "Description"
+msgstr ""
+
+#: admin/manage-fields.php:87
+#@ profilebuilder
+msgid "Enter a (detailed) description of the option for end users to read<br/>Optional"
+msgstr ""
+
+#: admin/manage-fields.php:88
+#@ profilebuilder
+msgid "Row Count"
+msgstr ""
+
+#: admin/manage-fields.php:88
+#@ profilebuilder
+msgid "Specify the number of rows for a 'Textarea' field<br/>If not specified, defaults to 5"
+msgstr ""
+
+#: admin/manage-fields.php:89
+#@ profilebuilder
+msgid "Allowed Image Extensions"
+msgstr ""
+
+#: admin/manage-fields.php:89
+#@ profilebuilder
+msgid "Specify the extension(s) you want to limit to upload<br/>Example: .ext1,.ext2,.ext3<br/>If not specified, defaults to: .jpg,.jpeg,.gif,.png (.*)"
+msgstr ""
+
+#: admin/manage-fields.php:90
+#@ profilebuilder
+msgid "Allowed Upload Extensions"
+msgstr ""
+
+#: admin/manage-fields.php:90
+#@ profilebuilder
+msgid "Specify the extension(s) you want to limit to upload<br/>Example: .ext1,.ext2,.ext3<br/>If not specified, defaults to all WordPress allowed file extensions (.*)"
+msgstr ""
+
+#: admin/manage-fields.php:91
+#@ profilebuilder
+msgid "Avatar Size"
+msgstr ""
+
+#: admin/manage-fields.php:91
+#@ profilebuilder
+msgid "Enter a value (between 20 and 200) for the size of the 'Avatar'<br/>If not specified, defaults to 100"
+msgstr ""
+
+#: admin/manage-fields.php:92
+#@ profilebuilder
+msgid "Date-format"
+msgstr ""
+
+#: admin/manage-fields.php:92
+#@ profilebuilder
+msgid "Specify the format of the date when using Datepicker<br/>Valid options: mm/dd/yy, mm/yy/dd, dd/yy/mm, dd/mm/yy, yy/dd/mm, yy/mm/dd<br/>If not specified, defaults to mm/dd/yy"
+msgstr ""
+
+#: admin/manage-fields.php:93
+#@ profilebuilder
+msgid "Terms of Agreement"
+msgstr ""
+
+#: admin/manage-fields.php:93
+#@ profilebuilder
+msgid "Enter a detailed description of the temrs of agreement for the user to read.<br/>Links can be inserted by using standard HTML syntax: &lt;a href=\"custom_url\"&gt;custom_text&lt;/a&gt;"
+msgstr ""
+
+#: admin/manage-fields.php:94
+#@ profilebuilder
+msgid "Options"
+msgstr ""
+
+#: admin/manage-fields.php:94
+#@ profilebuilder
+msgid "Enter a comma separated list of values<br/>This can be anything, as it is hidden from the user, but should not contain special characters or apostrophes"
+msgstr ""
+
+#: admin/manage-fields.php:95
+#@ profilebuilder
+msgid "Labels"
+msgstr ""
+
+#: admin/manage-fields.php:95
+#@ profilebuilder
+msgid "Enter a comma separated list of labels<br/>Visible for the user"
+msgstr ""
+
+#: admin/manage-fields.php:96
+#@ profilebuilder
+msgid "Public Key"
+msgstr ""
+
+#: admin/manage-fields.php:96
+#@ profilebuilder
+msgid "The public key from Google, <a href=\"http://www.google.com/recaptcha\" target=\"_blank\">www.google.com/recaptcha</a>"
+msgstr ""
+
+#: admin/manage-fields.php:97
+#@ profilebuilder
+msgid "Private Key"
+msgstr ""
+
+#: admin/manage-fields.php:97
+#@ profilebuilder
+msgid "The private key from Google, <a href=\"http://www.google.com/recaptcha\" target=\"_blank\">www.google.com/recaptcha</a>"
+msgstr ""
+
+#: admin/manage-fields.php:98
+#@ profilebuilder
+msgid "User Roles"
+msgstr ""
+
+#: admin/manage-fields.php:98
+#@ profilebuilder
+msgid "Select which user roles to show to the user ( drag and drop to re-order )"
+msgstr ""
+
+#: admin/manage-fields.php:99
+#@ profilebuilder
+msgid "User Roles Order"
+msgstr ""
+
+#: admin/manage-fields.php:99
+#@ profilebuilder
+msgid "Save the user role order from the user roles checkboxes"
+msgstr ""
+
+#: admin/manage-fields.php:100
+#@ profilebuilder
+msgid "Default Value"
+msgstr ""
+
+#: admin/manage-fields.php:100
+#@ profilebuilder
+msgid "Default value of the field"
+msgstr ""
+
+#: admin/manage-fields.php:101
+#@ profilebuilder
+msgid "Default Option"
+msgstr ""
+
+#: admin/manage-fields.php:101
+#@ profilebuilder
+msgid "Specify the option which should be selected by default"
+msgstr ""
+
+#: admin/manage-fields.php:102
+#@ profilebuilder
+msgid "Default Option(s)"
+msgstr ""
+
+#: admin/manage-fields.php:102
+#@ profilebuilder
+msgid "Specify the option which should be checked by default<br/>If there are multiple values, separate them with a ',' (comma)"
+msgstr ""
+
+#: admin/manage-fields.php:103
+#@ profilebuilder
+msgid "Default Content"
+msgstr ""
+
+#: admin/manage-fields.php:103
+#@ profilebuilder
+msgid "Default value of the textarea"
+msgstr ""
+
+#: admin/manage-fields.php:104
+#@ profilebuilder
+msgid "Required"
+msgstr ""
+
+#: admin/manage-fields.php:104
+#@ profilebuilder
+msgid "Whether the field is required or not"
+msgstr ""
+
+#: admin/manage-fields.php:105
+#@ profilebuilder
+msgid "Overwrite Existing"
+msgstr ""
+
+#: admin/manage-fields.php:105
+#@ profilebuilder
+msgid "Selecting 'Yes' will add the field to the list, but will overwrite any other field in the database that has the same meta-name<br/>Use this at your own risk"
+msgstr ""
+
+#: admin/manage-fields.php:111
+#@ profilebuilder
+msgid "Field Properties"
+msgstr ""
+
+#: admin/manage-fields.php:124
+#@ profilebuilder
+msgid "Registration & Edit Profile"
+msgstr ""
+
+#: admin/manage-fields.php:143
+#@ profilebuilder
+msgid "Name"
+msgstr ""
+
+#: admin/manage-fields.php:144
+#@ profilebuilder
+msgid "Usernames cannot be changed."
+msgstr ""
+
+#: admin/manage-fields.php:145
+#@ profilebuilder
+msgid "First Name"
+msgstr "Nombre"
+
+#: admin/manage-fields.php:146
+#@ profilebuilder
+msgid "Last Name"
+msgstr "Apellido"
+
+#: admin/manage-fields.php:147
+#@ profilebuilder
+msgid "Nickname"
+msgstr ""
+
+#: admin/manage-fields.php:148
+#@ profilebuilder
+msgid "Display name publicly as"
+msgstr ""
+
+#: admin/manage-fields.php:149
+#@ profilebuilder
+msgid "Contact Info"
+msgstr ""
+
+#: admin/manage-fields.php:150
+#: features/email-confirmation/class-email-confirmation.php:166
+#@ profilebuilder
+msgid "E-mail"
+msgstr ""
+
+#: admin/manage-fields.php:151
+#@ profilebuilder
+msgid "Website"
+msgstr ""
+
+#: admin/manage-fields.php:155
+#@ profilebuilder
+msgid "AIM"
+msgstr ""
+
+#: admin/manage-fields.php:156
+#@ profilebuilder
+msgid "Yahoo IM"
+msgstr ""
+
+#: admin/manage-fields.php:157
+#@ profilebuilder
+msgid "Jabber / Google Talk"
+msgstr ""
+
+#: admin/manage-fields.php:160
+#@ profilebuilder
+msgid "About Yourself"
+msgstr ""
+
+#: admin/manage-fields.php:161
+#@ profilebuilder
+msgid "Biographical Info"
+msgstr ""
+
+#: admin/manage-fields.php:161
+#@ profilebuilder
+msgid "Share a little biographical information to fill out your profile. This may be shown publicly."
+msgstr ""
+
+#: admin/manage-fields.php:162
+#: front-end/recover.php:75
+#@ profilebuilder
+msgid "Password"
+msgstr "Contraseña"
+
+#: admin/manage-fields.php:162
+#@ profilebuilder
+msgid "Type your password."
+msgstr ""
+
+#: admin/manage-fields.php:163
+#: front-end/recover.php:80
+#@ profilebuilder
+msgid "Repeat Password"
+msgstr "Repite tu contraseña  "
+
+#: admin/manage-fields.php:163
+#@ profilebuilder
+msgid "Type your password again. "
+msgstr ""
+
+#: admin/manage-fields.php:320
+#: admin/manage-fields.php:464
+#@ profilebuilder
+msgid "You must select a field\n"
+msgstr ""
+
+#: admin/manage-fields.php:330
+#@ profilebuilder
+msgid "Please choose a different field type as this one already exists in your form (must be unique)\n"
+msgstr ""
+
+#: admin/manage-fields.php:341
+#@ profilebuilder
+msgid "The entered avatar size is not between 20 and 200\n"
+msgstr ""
+
+#: admin/manage-fields.php:344
+#@ profilebuilder
+msgid "The entered avatar size is not numerical\n"
+msgstr ""
+
+#: admin/manage-fields.php:352
+#@ profilebuilder
+msgid "The entered row number is not numerical\n"
+msgstr ""
+
+#: admin/manage-fields.php:355
+#@ profilebuilder
+msgid "You must enter a value for the row number\n"
+msgstr ""
+
+#: admin/manage-fields.php:363
+#@ profilebuilder
+msgid "You must enter the public key\n"
+msgstr ""
+
+#: admin/manage-fields.php:365
+#@ profilebuilder
+msgid "You must enter the private key\n"
+msgstr ""
+
+#: admin/manage-fields.php:373
+#@ profilebuilder
+msgid "The entered value for the Datepicker is not a valid date-format\n"
+msgstr ""
+
+#: admin/manage-fields.php:376
+#@ profilebuilder
+msgid "You must enter a value for the date-format\n"
+msgstr ""
+
+#: admin/manage-fields.php:392
+#@ profilebuilder
+msgid "The meta-name cannot be empty\n"
+msgstr ""
+
+#: admin/manage-fields.php:404
+#: admin/manage-fields.php:412
+#: admin/manage-fields.php:422
+#@ profilebuilder
+msgid "That meta-name is already in use\n"
+msgstr ""
+
+#: admin/manage-fields.php:444
+#, php-format
+#@ profilebuilder
+msgid "The following option(s) did not coincide with the ones in the options list: %s\n"
+msgstr ""
+
+#: admin/manage-fields.php:448
+#, php-format
+#@ profilebuilder
+msgid "The following option did not coincide with the ones in the options list: %s\n"
+msgstr ""
+
+#: admin/manage-fields.php:455
+#@ profilebuilder
+msgid "Please select at least one user role\n"
+msgstr ""
+
+#: admin/manage-fields.php:471
+#@ profilebuilder
+msgid "That field is already added in this form\n"
+msgstr ""
+
+#: admin/manage-fields.php:520
+#@ profilebuilder
+msgid "<pre>Title</pre><pre>Type</pre><pre>Meta Name</pre><pre class=\"wppb-mb-head-required\">Required</pre>"
+msgstr ""
+
+#: admin/manage-fields.php:520
+#: assets/lib/wck-api/wordpress-creation-kit.php:440
+#: assets/lib/wck-api/wordpress-creation-kit.php:529
+#: features/functions.php:602
+#: features/functions.php:609
+#@ profilebuilder
+#@ wck
+msgid "Edit"
+msgstr ""
+
+#: admin/manage-fields.php:520
+#: assets/lib/wck-api/wordpress-creation-kit.php:440
+#: assets/lib/wck-api/wordpress-creation-kit.php:530
+#: features/email-confirmation/class-email-confirmation.php:118
+#: features/email-confirmation/class-email-confirmation.php:215
+#: features/functions.php:595
+#: features/functions.php:609
+#@ profilebuilder
+#@ wck
+msgid "Delete"
+msgstr ""
+
+#: admin/manage-fields.php:535
+#@ profilebuilder
+msgid "Use these shortcodes on the pages you want the forms to be displayed:"
+msgstr ""
+
+#: admin/manage-fields.php:541
+#@ profilebuilder
+msgid "If you're interested in displaying different fields in the registration and edit profile forms, please use the Multiple Registration & Edit Profile Forms Addon."
+msgstr ""
+
+#: admin/register-version.php:14
+#@ profilebuilder
+msgid "Register Your Version"
+msgstr ""
+
+#: admin/register-version.php:14
+#@ profilebuilder
+msgid "Register Version"
+msgstr ""
+
+#: admin/register-version.php:22
+#@ profilebuilder
+msgid "Profile Builder Register"
+msgstr ""
+
+#: admin/register-version.php:69
+#, php-format
+#@ profilebuilder
+msgid "Now that you acquired a copy of %s, you should take the time and register it with the serial number you received"
+msgstr ""
+
+#: admin/register-version.php:70
+#@ profilebuilder
+msgid "If you register this version of Profile Builder, you'll receive information regarding upgrades, patches, and technical support."
+msgstr ""
+
+#: admin/register-version.php:72
+#@ profilebuilder
+msgid " Serial Number:"
+msgstr ""
+
+#: admin/register-version.php:77
+#@ profilebuilder
+msgid "The serial number was successfully validated!"
+msgstr ""
+
+#: admin/register-version.php:79
+#@ profilebuilder
+msgid "The serial number entered couldn't be validated!"
+msgstr ""
+
+#: admin/register-version.php:81
+#@ profilebuilder
+msgid "The serial number is about to expire soon!"
+msgstr ""
+
+#: admin/register-version.php:81
+#, php-format
+#@ profilebuilder
+msgid " Your serial number is about to expire, please %1$s Renew Your License%2$s."
+msgstr ""
+
+#: admin/register-version.php:83
+#@ profilebuilder
+msgid "The serial number couldn't be validated because it expired!"
+msgstr ""
+
+#: admin/register-version.php:83
+#, php-format
+#@ profilebuilder
+msgid " Your serial number is expired, please %1$s Renew Your License%2$s."
+msgstr ""
+
+#: admin/register-version.php:85
+#@ profilebuilder
+msgid "The serial number couldn't be validated because process timed out. This is possible due to the server being down. Please try again later!"
+msgstr ""
+
+#: admin/register-version.php:87
+#@ profilebuilder
+msgid "(e.g. RMPB-15-SN-253a55baa4fbe7bf595b2aabb8d72985)"
+msgstr ""
+
+#: admin/register-version.php:238
+#, php-format
+#@ profilebuilder
+msgid "<p>Your <strong>Profile Builder</strong> serial number is invalid or missing. <br/>Please %1$sregister your copy%2$s to receive access to automatic updates and support. Need a license key? %3$sPurchase one now%4$s</p>"
+msgstr ""
+
+#: admin/register-version.php:241
+#, php-format
+#@ profilebuilder
+msgid "<p>Your <strong>Profile Builder</strong> license has expired. <br/>Please %1$sRenew Your Licence%2$s to continue receiving access to product downloads, automatic updates and support. %3$sRenew now and get 50&#37; off %4$s %5$sDismiss%6$s</p>"
+msgstr ""
+
+#: admin/register-version.php:246
+#, php-format
+#@ profilebuilder
+msgid "<p>Your <strong>Profile Builder</strong> license is about to expire on %5$s. <br/>Please %1$sRenew Your Licence%2$s to continue receiving access to product downloads, automatic updates and support. %3$sRenew now and get 50&#37; off %4$s %6$sDismiss%7$s</p>"
+msgstr ""
+
+#: assets/lib/wck-api/fields/country select.php:14
+#: assets/lib/wck-api/fields/cpt select.php:17
+#: assets/lib/wck-api/fields/select.php:14
+#: assets/lib/wck-api/fields/user select.php:15
+#@ wck
+msgid "...Choose"
+msgstr ""
+
+#: assets/lib/wck-api/fields/nested repeater.php:8
+#, php-format
+#@ default
+msgid "You can add the information for the %s after you add a entry"
+msgstr ""
+
+#: assets/lib/wck-api/fields/upload.php:37
+#@ wck
+msgid "Remove"
+msgstr ""
+
+#: assets/lib/wck-api/fields/upload.php:54
+#@ wck
+msgid "Upload "
+msgstr ""
+
+#: assets/lib/wck-api/wordpress-creation-kit.php:337
+#@ wck
+msgid "Save"
+msgstr ""
+
+#: assets/lib/wck-api/wordpress-creation-kit.php:337
+#@ wck
+msgid "Add Entry"
+msgstr ""
+
+#: assets/lib/wck-api/wordpress-creation-kit.php:440
+#: features/functions.php:609
+#@ wck
+#@ profilebuilder
+msgid "Content"
+msgstr ""
+
+#: assets/lib/wck-api/wordpress-creation-kit.php:529
+#@ wck
+msgid "Edit this item"
+msgstr ""
+
+#: assets/lib/wck-api/wordpress-creation-kit.php:530
+#@ wck
+msgid "Delete this item"
+msgstr ""
+
+#: assets/lib/wck-api/wordpress-creation-kit.php:671
+#@ wck
+msgid "Please enter a value for the required field "
+msgstr ""
+
+#: assets/lib/wck-api/wordpress-creation-kit.php:1150
+#@ wck
+msgid "Syncronize WCK"
+msgstr ""
+
+#: assets/lib/wck-api/wordpress-creation-kit.php:1162
+#@ wck
+msgid "Syncronize WCK Translation"
+msgstr ""
+
+#: features/class-list-table.php:184
+#@ default
+msgid "No items found."
+msgstr ""
+
+#: features/class-list-table.php:308
+#@ default
+msgid "Bulk Actions"
+msgstr ""
+
+#: features/class-list-table.php:318
+#@ default
+msgid "Apply"
+msgstr ""
+
+#: features/class-list-table.php:402
+#@ default
+msgid "Show all dates"
+msgstr ""
+
+#. translators: 1: month name, 2: 4-digit year
+#: features/class-list-table.php:415
+#, php-format
+#@ default
+msgid "%1$s %2$d"
+msgstr ""
+
+#: features/class-list-table.php:431
+#@ default
+msgid "List View"
+msgstr ""
+
+#: features/class-list-table.php:432
+#@ default
+msgid "Excerpt View"
+msgstr ""
+
+#: features/class-list-table.php:458
+#, php-format
+#@ default
+msgid "%s pending"
+msgstr ""
+
+#: features/class-list-table.php:526
+#: features/class-list-table.php:941
+#, php-format
+#@ default
+msgid "1 item"
+msgid_plural "%s items"
+msgstr[0] ""
+msgstr[1] ""
+
+#: features/class-list-table.php:544
+#@ default
+msgid "Go to the first page"
+msgstr ""
+
+#: features/class-list-table.php:551
+#@ default
+msgid "Go to the previous page"
+msgstr ""
+
+#: features/class-list-table.php:560
+#@ default
+msgid "Current page"
+msgstr ""
+
+#: features/class-list-table.php:566
+#, php-format
+#@ default
+msgctxt "paging"
+msgid "%1$s of %2$s"
+msgstr ""
+
+#: features/class-list-table.php:570
+#@ default
+msgid "Go to the next page"
+msgstr ""
+
+#: features/class-list-table.php:577
+#@ default
+msgid "Go to the last page"
+msgstr ""
+
+#: features/class-list-table.php:713
+#@ default
+msgid "Select All"
+msgstr ""
+
+#: features/email-confirmation/class-email-confirmation.php:89
+#: features/email-confirmation/class-email-confirmation.php:168
+#@ profilebuilder
+msgid "User Meta"
+msgstr ""
+
+#: features/email-confirmation/class-email-confirmation.php:89
+#@ profilebuilder
+msgid "show"
+msgstr ""
+
+#: features/email-confirmation/class-email-confirmation.php:118
+#@ profilebuilder
+msgid "delete this user from the _signups table?"
+msgstr ""
+
+#: features/email-confirmation/class-email-confirmation.php:119
+#@ profilebuilder
+msgid "confirm this email yourself?"
+msgstr ""
+
+#: features/email-confirmation/class-email-confirmation.php:119
+#: features/email-confirmation/class-email-confirmation.php:216
+#@ profilebuilder
+msgid "Confirm Email"
+msgstr ""
+
+#: features/email-confirmation/class-email-confirmation.php:120
+#@ profilebuilder
+msgid "resend the activation link?"
+msgstr ""
+
+#: features/email-confirmation/class-email-confirmation.php:120
+#: features/email-confirmation/class-email-confirmation.php:217
+#@ profilebuilder
+msgid "Resend Activation Email"
+msgstr ""
+
+#: features/email-confirmation/class-email-confirmation.php:167
+#@ profilebuilder
+msgid "Registered"
+msgstr ""
+
+#: features/email-confirmation/class-email-confirmation.php:247
+#, php-format
+#@ profilebuilder
+msgid "%s couldn't be deleted"
+msgstr ""
+
+#: features/email-confirmation/class-email-confirmation.php:251
+#@ profilebuilder
+msgid "All users have been successfully deleted"
+msgstr ""
+
+#: features/email-confirmation/class-email-confirmation.php:261
+#@ profilebuilder
+msgid "The selected users have been activated"
+msgstr ""
+
+#: features/email-confirmation/class-email-confirmation.php:272
+#@ profilebuilder
+msgid "The selected users have had their activation emails resent"
+msgstr ""
+
+#: features/email-confirmation/class-email-confirmation.php:276
+#@ profilebuilder
+msgid "Sorry, but you don't have permission to do that!"
+msgstr ""
+
+#: features/email-confirmation/class-email-confirmation.php:464
+#: features/email-confirmation/email-confirmation.php:47
+#@ profilebuilder
+msgid "Users with Unconfirmed Email Address"
+msgstr ""
+
+#: features/email-confirmation/class-email-confirmation.php:467
+#@ profilebuilder
+msgid "All Users"
+msgstr ""
+
+#: features/email-confirmation/email-confirmation.php:58
+#@ profilebuilder
+msgid "Do you want to"
+msgstr ""
+
+#: features/email-confirmation/email-confirmation.php:110
+#@ profilebuilder
+msgid "There was an error performing that action!"
+msgstr ""
+
+#: features/email-confirmation/email-confirmation.php:118
+#@ profilebuilder
+msgid "The selected user couldn't be deleted"
+msgstr ""
+
+#: features/email-confirmation/email-confirmation.php:129
+#@ profilebuilder
+msgid "Email notification resent to user"
+msgstr ""
+
+#: features/email-confirmation/email-confirmation.php:135
+#@ profilebuilder
+msgid "You either don't have permission for that action or there was an error!"
+msgstr ""
+
+#: features/email-confirmation/email-confirmation.php:362
+#, php-format
+#@ profilebuilder
+msgid "[%1$s] Activate %2$s"
+msgstr ""
+
+#: features/email-confirmation/email-confirmation.php:363
+#, php-format
+#@ profilebuilder
+msgid ""
+"To activate your user, please click the following link:\n"
+"\n"
+"%s%s%s\n"
+"\n"
+"After you activate it you will receive yet *another email* with your login."
+msgstr ""
+
+#: features/email-confirmation/email-confirmation.php:401
+#: front-end/register.php:68
+#@ profilebuilder
+msgid "Could not create user!"
+msgstr ""
+
+#: features/email-confirmation/email-confirmation.php:404
+#@ profilebuilder
+msgid "That username is already activated!"
+msgstr ""
+
+#: features/email-confirmation/email-confirmation.php:433
+#@ profilebuilder
+msgid "There was an error while trying to activate the user"
+msgstr ""
+
+#: features/email-confirmation/email-confirmation.php:478
+#@ profilebuilder
+msgid "A new subscriber has (been) registered!"
+msgstr ""
+
+#: features/email-confirmation/email-confirmation.php:481
+#, php-format
+#@ profilebuilder
+msgid "New subscriber on %1$s.<br/><br/>Username:%2$s<br/>E-mail:%3$s<br/>"
+msgstr ""
+
+#: features/email-confirmation/email-confirmation.php:486
+#@ profilebuilder
+msgid "The \"Admin Approval\" feature was activated at the time of registration, so please remember that you need to approve this user before he/she can log in!"
+msgstr ""
+
+#: features/email-confirmation/email-confirmation.php:501
+#, php-format
+#@ profilebuilder
+msgid "[%1$s] Your new account information"
+msgstr ""
+
+#: features/email-confirmation/email-confirmation.php:505
+#: features/email-confirmation/email-confirmation.php:508
+#@ profilebuilder
+msgid "Your selected password at signup"
+msgstr ""
+
+#: features/email-confirmation/email-confirmation.php:507
+#, php-format
+#@ profilebuilder
+msgid "Welcome to %1$s!<br/><br/><br/>Your username is:%2$s and password:%3$s"
+msgstr ""
+
+#: features/email-confirmation/email-confirmation.php:515
+#: front-end/register.php:103
+#@ profilebuilder
+msgid "Before you can access your account, an administrator needs to approve it. You will be notified via email."
+msgstr ""
+
+#: features/functions.php:199
+#: features/functions.php:200
+#@ profilebuilder
+msgid "Profile Builder"
+msgstr ""
+
+#: features/functions.php:270
+#@ profilebuilder
+msgid "The user-validation has failed - the avatar was not deleted!"
+msgstr ""
+
+#: features/functions.php:281
+#@ profilebuilder
+msgid "The user-validation has failed - the attachment was not deleted!"
+msgstr ""
+
+#: features/functions.php:455
+#@ profilebuilder
+msgid "Strength indicator"
+msgstr ""
+
+#: features/functions.php:480
+#@ profilebuilder
+msgid "Very Weak"
+msgstr ""
+
+#: features/functions.php:494
+#, php-format
+#@ profilebuilder
+msgid "Minimum length of %d characters"
+msgstr "Mínimo %d caracteres."
+
+#: features/functions.php:568
+#@ profilebuilder
+msgid "This field is required"
+msgstr "Campo obligatorio"
+
+#: features/functions.php:588
+#@ profilebuilder
+msgid "Cancel"
+msgstr ""
+
+#: features/functions.php:620
+#, php-format
+#@ profilebuilder
+msgid "To allow users to register for your website via Profile Builder, you first must enable user registration. Go to %1$sNetwork Settings%2$s, and under Registration Settings make sure to check “User accounts may be registered”. %3$sDismiss%4$s"
+msgstr ""
+
+#: features/functions.php:624
+#, php-format
+#@ profilebuilder
+msgid "To allow users to register for your website via Profile Builder, you first must enable user registration. Go to %1$sSettings -> General%2$s tab, and under Membership make sure to check “Anyone can register”. %3$sDismiss%4$s"
+msgstr ""
+
+#: features/login-widget/login-widget.php:10
+#@ profilebuilder
+msgid "This login widget lets you add a login form in the sidebar."
+msgstr ""
+
+#: features/login-widget/login-widget.php:15
+#@ profilebuilder
+msgid "Profile Builder Login Widget"
+msgstr ""
+
+#: features/login-widget/login-widget.php:63
+#@ profilebuilder
+msgid "Title:"
+msgstr ""
+
+#: features/login-widget/login-widget.php:68
+#@ profilebuilder
+msgid "After login redirect URL (optional):"
+msgstr ""
+
+#: features/login-widget/login-widget.php:73
+#@ profilebuilder
+msgid "Register page URL (optional):"
+msgstr ""
+
+#: features/login-widget/login-widget.php:78
+#@ profilebuilder
+msgid "Password Recovery page URL (optional):"
+msgstr ""
+
+#: features/upgrades/upgrades-functions.php:91
+#: features/upgrades/upgrades-functions.php:134
+#@ profilebuilder
+msgid "The usernames cannot be changed."
+msgstr ""
+
+#: front-end/class-formbuilder.php:87
+#@ profilebuilder
+msgid "Only an administrator can add new users."
+msgstr ""
+
+#: front-end/class-formbuilder.php:97
+#@ profilebuilder
+msgid "Users can register themselves or you can manually create users here."
+msgstr ""
+
+#: front-end/class-formbuilder.php:97
+#: front-end/class-formbuilder.php:100
+#@ profilebuilder
+msgid "This message is only visible by administrators"
+msgstr ""
+
+#: front-end/class-formbuilder.php:100
+#@ profilebuilder
+msgid "Users cannot currently register themselves, but you can manually create users here."
+msgstr ""
+
+#: front-end/class-formbuilder.php:112
+#, php-format
+#@ profilebuilder
+msgid "You are currently logged in as %1s. You don't need another account. %2s"
+msgstr ""
+
+#: front-end/class-formbuilder.php:112
+#@ profilebuilder
+msgid "Log out of this account."
+msgstr ""
+
+#: front-end/class-formbuilder.php:112
+#@ profilebuilder
+msgid "Logout"
+msgstr ""
+
+#: front-end/class-formbuilder.php:118
+#@ profilebuilder
+msgid "You must be logged in to edit your profile."
+msgstr ""
+
+#: front-end/class-formbuilder.php:141
+#@ profilebuilder
+msgid "here"
+msgstr ""
+
+#: front-end/class-formbuilder.php:143
+#, php-format
+#@ profilebuilder
+msgid "You will soon be redirected automatically. If you see this page for more than %1$d seconds, please click %2$s.%3$s"
+msgstr ""
+
+#: front-end/class-formbuilder.php:228
+#, php-format
+#@ profilebuilder
+msgid "The account %1s has been successfully created!"
+msgstr ""
+
+#: front-end/class-formbuilder.php:231
+#: front-end/class-formbuilder.php:237
+#, php-format
+#@ profilebuilder
+msgid "Before you can access your account %1s, you need to confirm your email address. Please check your inbox and click the activation link."
+msgstr ""
+
+#: front-end/class-formbuilder.php:234
+#, php-format
+#@ profilebuilder
+msgid "Before you can access your account %1s, an administrator has to approve it. You will be notified via email."
+msgstr ""
+
+#: front-end/class-formbuilder.php:247
+#@ profilebuilder
+msgid "Your profile has been successfully updated!"
+msgstr ""
+
+#: front-end/class-formbuilder.php:257
+#@ profilebuilder
+msgid "There was an error in the submitted form"
+msgstr "No se ha podido completar el registro. Revisa tus datos."
+
+#: front-end/class-formbuilder.php:278
+#@ profilebuilder
+msgid "Add User"
+msgstr ""
+
+#: front-end/class-formbuilder.php:278
+#: front-end/login.php:199
+#@ profilebuilder
+msgid "Register"
+msgstr "Regístrame"
+
+#: front-end/class-formbuilder.php:281
+#@ profilebuilder
+msgid "Update"
+msgstr ""
+
+#: front-end/class-formbuilder.php:323
+#@ profilebuilder
+msgid "The avatar was successfully deleted!"
+msgstr ""
+
+#: front-end/class-formbuilder.php:323
+#@ profilebuilder
+msgid "The following attachment was successfully deleted:"
+msgstr ""
+
+#: front-end/class-formbuilder.php:335
+#@ profilebuilder
+msgid "Send these credentials via email."
+msgstr "Envíame estos datos por email"
+
+#: front-end/class-formbuilder.php:483
+#@ profilebuilder
+msgid "User to edit:"
+msgstr ""
+
+#: front-end/default-fields/email/email.php:42
+#@ profilebuilder
+msgid "The email you entered is not a valid email address."
+msgstr ""
+
+#: front-end/default-fields/email/email.php:51
+#: front-end/default-fields/email/email.php:56
+#@ profilebuilder
+msgid "This email is already reserved to be used soon."
+msgstr ""
+
+#: front-end/default-fields/email/email.php:51
+#: front-end/default-fields/email/email.php:56
+#: front-end/default-fields/email/email.php:64
+#: front-end/default-fields/email/email.php:75
+#: front-end/default-fields/username/username.php:44
+#: front-end/default-fields/username/username.php:51
+#@ profilebuilder
+msgid "Please try a different one!"
+msgstr ""
+
+#: front-end/default-fields/email/email.php:64
+#: front-end/default-fields/email/email.php:75
+#@ profilebuilder
+msgid "This email is already in use."
+msgstr ""
+
+#: front-end/default-fields/password/password.php:44
+#: front-end/recover.php:236
+#, php-format
+#@ profilebuilder
+msgid "The password must have the minimum length of %s characters"
+msgstr ""
+
+#: front-end/default-fields/password/password.php:48
+#: front-end/recover.php:240
+#, php-format
+#@ profilebuilder
+msgid "The password must have a minimum strength of %s"
+msgstr ""
+
+#: front-end/default-fields/password-repeat/password-repeat.php:35
+#: front-end/default-fields/password-repeat/password-repeat.php:39
+#@ profilebuilder
+msgid "The passwords do not match"
+msgstr ""
+
+#: front-end/default-fields/username/username.php:44
+#@ profilebuilder
+msgid "This username already exists."
+msgstr ""
+
+#: front-end/default-fields/username/username.php:51
+#@ profilebuilder
+msgid "This username is already reserved to be used soon."
+msgstr ""
+
+#: front-end/login.php:89
+#: front-end/login.php:96
+#: front-end/login.php:110
+#: front-end/recover.php:17
+#: front-end/recover.php:213
+#@ profilebuilder
+msgid "ERROR"
+msgstr ""
+
+#: front-end/login.php:89
+#@ profilebuilder
+msgid "The password you entered is incorrect."
+msgstr ""
+
+#: front-end/login.php:90
+#: front-end/login.php:97
+#@ profilebuilder
+msgid "Password Lost and Found."
+msgstr ""
+
+#: front-end/login.php:90
+#: front-end/login.php:97
+#@ profilebuilder
+msgid "Lost your password"
+msgstr ""
+
+#: front-end/login.php:96
+#@ profilebuilder
+msgid "Invalid username."
+msgstr ""
+
+#: front-end/login.php:101
+#: front-end/login.php:105
+#@ profilebuilder
+msgid "username"
+msgstr ""
+
+#: front-end/login.php:101
+#@ profilebuilder
+msgid "email"
+msgstr ""
+
+#: front-end/login.php:105
+#@ profilebuilder
+msgid "username or email"
+msgstr ""
+
+#: front-end/login.php:110
+#@ profilebuilder
+msgid "Both fields are empty."
+msgstr ""
+
+#: front-end/login.php:171
+#@ profilebuilder
+msgid "Username or Email"
+msgstr ""
+
+#: front-end/login.php:205
+#@ profilebuilder
+msgid "Lost your password?"
+msgstr ""
+
+#: front-end/login.php:238
+#: front-end/logout.php:17
+#@ profilebuilder
+msgid "Log out of this account"
+msgstr ""
+
+#: front-end/login.php:238
+#@ profilebuilder
+msgid "Log out"
+msgstr "Cierra sesión"
+
+#: front-end/login.php:239
+#, php-format
+#@ profilebuilder
+msgid "You are currently logged in as %1$s. %2$s"
+msgstr "Has iniciado sesión como %1$s. %2$s"
+
+#: front-end/logout.php:15
+#, php-format
+#@ profilebuilder
+msgid "You are currently logged in as %s. "
+msgstr ""
+
+#: front-end/logout.php:15
+#@ profilebuilder
+msgid "Log out &raquo;"
+msgstr ""
+
+#: front-end/recover.php:17
+#@ profilebuilder
+msgid "Your account has to be confirmed by an administrator before you can use the \"Password Reset\" feature."
+msgstr ""
+
+#: front-end/recover.php:91
+#@ profilebuilder
+msgid "Reset Password"
+msgstr ""
+
+#: front-end/recover.php:111
+#@ profilebuilder
+msgid "Please enter your username or email address."
+msgstr ""
+
+#: front-end/recover.php:112
+#@ profilebuilder
+msgid "You will receive a link to create a new password via email."
+msgstr ""
+
+#: front-end/recover.php:119
+#@ profilebuilder
+msgid "Username or E-mail"
+msgstr ""
+
+#: front-end/recover.php:125
+#@ profilebuilder
+msgid "Get New Password"
+msgstr ""
+
+#: front-end/recover.php:166
+#@ profilebuilder
+msgid "The username entered wasn't found in the database!"
+msgstr ""
+
+#: front-end/recover.php:166
+#@ profilebuilder
+msgid "Please check that you entered the correct username."
+msgstr ""
+
+#: front-end/recover.php:181
+#@ profilebuilder
+msgid "Check your e-mail for the confirmation link."
+msgstr ""
+
+#: front-end/recover.php:201
+#, php-format
+#@ profilebuilder
+msgid "Someone requested that the password be reset for the following account: <b>%1$s</b><br/>If this was a mistake, just ignore this email and nothing will happen.<br/>To reset your password, visit the following link:%2$s"
+msgstr ""
+
+#: front-end/recover.php:204
+#, php-format
+#@ profilebuilder
+msgid "Password Reset from \"%1$s\""
+msgstr ""
+
+#: front-end/recover.php:213
+#, php-format
+#@ profilebuilder
+msgid "There was an error while trying to send the activation link to %1$s!"
+msgstr ""
+
+#: front-end/recover.php:222
+#@ profilebuilder
+msgid "The email address entered wasn't found in the database!"
+msgstr ""
+
+#: front-end/recover.php:222
+#@ profilebuilder
+msgid "Please check that you entered the correct email address."
+msgstr ""
+
+#: front-end/recover.php:247
+#@ profilebuilder
+msgid "Your password has been successfully changed!"
+msgstr ""
+
+#: front-end/recover.php:266
+#, php-format
+#@ profilebuilder
+msgid "You have successfully reset your password to: %1$s"
+msgstr ""
+
+#: front-end/recover.php:269
+#: front-end/recover.php:283
+#, php-format
+#@ profilebuilder
+msgid "Password Successfully Reset for %1$s on \"%2$s\""
+msgstr ""
+
+#: front-end/recover.php:280
+#, php-format
+#@ profilebuilder
+msgid "%1$s has requested a password change via the password reset feature.<br/>His/her new password is:%2$s"
+msgstr ""
+
+#: front-end/recover.php:299
+#@ profilebuilder
+msgid "The entered passwords don't match!"
+msgstr ""
+
+#: front-end/recover.php:344
+#@ profilebuilder
+msgid "ERROR:"
+msgstr ""
+
+#: front-end/recover.php:344
+#@ profilebuilder
+msgid "Invalid key!"
+msgstr ""
+
+#: front-end/register.php:46
+#@ profilebuilder
+msgid "Invalid activation key!"
+msgstr ""
+
+#: front-end/register.php:50
+#@ profilebuilder
+msgid "This username is now active!"
+msgstr ""
+
+#: front-end/register.php:71
+#@ profilebuilder
+msgid "This username is already activated!"
+msgstr ""
+
+#: front-end/register.php:102
+#@ profilebuilder
+msgid "Your email was successfully confirmed."
+msgstr ""
+
+#: front-end/register.php:112
+#@ profilebuilder
+msgid "There was an error while trying to activate the user."
+msgstr ""
+

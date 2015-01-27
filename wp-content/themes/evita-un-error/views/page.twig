@@ -2,17 +2,17 @@
 
 {% block content %}
 
-	<div class="content-wrapper">
-		<article class="post-type-{{post.post_type}}" id="post-{{post.ID}}">
-			<section class="article-content">
-				<h1 class="article-h1">{{post.title}}</h1>
-
-				<div class="article-body">
-					{{post.content}}
-				</div>
-			</section>
-
-		</article>
-	</div> <!-- /content-wrapper -->
-
+	<div style="background-image:url('{{post.thumbnail}}');" class="banner"></div>
+	<div id="main-mistake" class="mistake">
+	  <div class="content paper">
+	    <a href="{{post.category.link}}">
+	      <p class="labels">#{{post.category}}</p>
+	    </a>
+	    <h1 class="title">{{post.title}}</h1>
+	    <div class="text post-type-{{post.post_type}}" id="post-{{post.ID}}">
+	      {{post.content}}
+	    </div>
+	  </div>
+	</div>
+	
 {% endblock %}

@@ -1,0 +1,67 @@
+input#register,input#wppb-submit,input#edit_profile {
+  .border-radius(none);
+  .font(@altfont);
+  background-color:@purple;
+  color:@light;
+  border: 0;
+  padding: 10px 44px;
+  &:hover {
+    background-color:darken(@purple,5%);
+    color:white; 
+  }
+}
+
+.wppb-register-user,#loginform,#wppb-edit-user {
+  label {
+    font-family: @altfont;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: normal;
+  }
+  input.text-input {
+    padding:11px 15px!important;
+  }
+  .wppb-description-delimiter {
+    font-family: @altfont;
+    font-size: 13px;
+    padding-top: 8px;
+  }
+}
+
+.user-profile-form button {
+  .border-radius(none);
+  .font(@altfont);
+  background-color:@purple;
+  color:@light;
+  border: 0;
+  padding: 10px 44px;
+  font-size:20px;
+  margin-top:20px;
+  &:hover {
+    background-color:darken(@purple,5%);
+    color:white; 
+  }
+}
+.umm-custom-fields {
+  width:100%;
+  margin-top: 60px;
+  
+  tr {
+    height:60px;
+    th {
+      font-family: @altfont;
+      font-size: 15px;
+      text-transform: uppercase;
+      font-weight: normal;
+    }
+    td {
+      input {
+        border-radius: 3px;
+        padding: 12px 23px;
+        box-shadow: none;
+        border: 1px solid rgb(232, 232, 232);
+        width:100%;
+      }
+    }
+  }
+}

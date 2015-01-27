@@ -1,0 +1,123 @@
+.page-id-55 .paper {
+  .wp-editor-tabs {
+    display: none;
+  }
+  #insert-media-button {
+    span {
+      margin-top:-4px;
+    }
+    padding-top:3px;
+    margin-bottom: 9px;
+    color:@dark;
+  }
+  .frontier-list-posts-category {
+    display: none;
+  }
+  table {
+    font-family:@altfont;
+    .frontier-list-posts-cmt {
+      display:none;
+    }
+    thead {
+      
+      th {
+        font-weight:bolder;
+        font-family:@altfont;
+        text-transform: uppercase;  
+      }
+    }
+
+    tbody {
+      td {
+        font-weight:normal;
+        font-family:@altfont; 
+        a {
+          font-weight:bolder;
+          font-family:@altfont;
+          text-transform: uppercase; 
+          color:@purple;
+        }
+      }
+    }
+  }
+  input[type="text"] {
+    box-shadow: none;
+    border: 1px solid rgba(128, 128, 128, 0.2);
+    border-radius: 3px;
+    padding: 10px 20px;
+    margin-top: 15px;
+    width: 100%!important;
+  }
+  .table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
+    border:none!important;
+  }
+  .frontier_post_form {
+    .frontier-tax-box {
+      border:none;
+    }
+    #wp-user_post_desc-editor-container {
+      border:1px solid rgba(0,0,0,.1);
+      margin-bottom:10px;
+      textarea {
+      font-family: @mainfont;
+      font-size:20px;
+      }
+    }
+    #frontier_editor_field {
+      text-transform: none;
+      font-family: @altfont;
+    }
+    td,.frontier_heading,.frontier-tax-box {
+      text-transform: uppercase;
+      font-size: 15px;
+      font-family: @altfont;
+      input {
+        font-family: @altfont;
+      }
+    }
+    .frontier-tax-box input {
+      margin-right:10px;
+      margin-bottom:10px;
+    }
+    select {
+      width:100%;
+      margin-top:15px;
+      color: black;
+      background: rgba(0,0,0,.1);
+      box-shadow: none;
+      height: 41px;
+      cursor:pointer;
+    }
+    tr.last{
+      position: absolute;
+      background-color: rgba(0,0,0,.1);
+      width:100%;
+      left:0;
+      margin-top: -48px;
+      height: 108px;
+      padding:12px 13%;
+    button,input[type="reset"] {
+      background-color:@purple;
+      color:@light;
+      margin:0;
+      margin-right:-4px;
+      text-transform: uppercase;
+      .border-radius(none);
+      .font(@altfont);
+      font-size: 16px;
+      padding: 23px 53px;
+      border:none;
+      &:hover,&:focus,&:active {
+        background-color:darken(@purple,5%);
+        color:white;
+      }
+      &:nth-child(1){
+
+      }
+      &:nth-child(2){
+        background-color:@dark;
+      }
+    }
+    }
+  }
+}

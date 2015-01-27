@@ -21,7 +21,19 @@
  * @since    Timber 0.1
  */
 
+
 $context = Timber::get_context();
 $post = new TimberPost();
 $context['post'] = $post;
+// USER
+  $context['nombre'] = $current_user->user_firstname;
+  $context['userid'] = $current_user->ID;
+  if ( is_user_logged_in() ) {
+    $context['status'] = 'logged';
+  } else {
+  $context['status'] =  'unlogged';
+  }
+  $context['logout_url'] = wp_logout_url( $redirect );
+
+  // FIN USER
 Timber::render(array('page-' . $post->post_name . '.twig', 'page.twig'), $context);

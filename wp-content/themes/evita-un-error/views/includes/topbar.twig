@@ -1,0 +1,103 @@
+<header id="topbar" class="navbar navbar-static-top">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" data-toggle="collapse" data-target="#sidebar" class="navbar-toggle collapsed"><i class="fa fa-bars fa-2x"></i><i class="fa fa-remove fa-2x"></i></button>
+    </div>
+    <nav id="options" class="collapse navbar-collapse">
+      <ul class="nav navbar-nav">
+        <li class="user">
+          {% if status == 'logged' %}
+          <div style="background-image:url('{{function('get_avatar_url', userid,150)}}');" class="avatar user-loged"></div>
+          <div class="dropdown" style="width:inherit;display: inline; cursor:pointer;">
+            <p class="dropdown-toggle" id="dropdownMenu1" data-toggle="dropdown" aria-expanded="true">
+              {{nombre}}<i class="fa fa-sort-down"></i>
+            </p>
+            <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+              <li role="presentation"><a role="menuitem" tabindex="-1" href="{{site_url}}/comparte-tu-experiencia">Mis artículos</a></li>
+              <li role="presentation"><a role="menuitem" tabindex="-1" href="{{site_url}}/mi-perfil">Acerca de mí</a></li>
+              <li role="presentation"><a role="menuitem" tabindex="-1" href="{{site_url}}/mi-cuenta">Configuración</a></li>
+              <li role="presentation"><a role="menuitem" tabindex="-1" href="{{logout_url}}">Cierra sesión</a></li>
+            </ul>
+          </div>
+        </li>
+        <li>
+          <a class="btn purple" href="{{site_url}}/comparte-tu-experiencia/?task=new">Comparte tu error<span class="fa fa-angle-right"></span></a>
+        </li>
+      {% else %}
+        <li>
+          <a href="#solicita" data-toggle="modal" class="links">
+            Solicita invitación
+          </a>
+        </li>
+        <li>
+          <a href="{{site_url}}/inicia-sesion" class="links">
+            Inicia sesión
+          </a>
+        </li>
+        <li>
+          <a class="btn purple" style="margin-left:18px;" href="#" data-toggle="modal" data-target="#comparteExperiencia">Comparte tu error<span class="fa fa-angle-right"></span></a>
+        </li>
+      {% endif %}
+        
+      </ul>
+    </nav>
+  </div>
+</header>
+
+
+
+<!-- Modal explicación -->
+<div class="modal fade" id="comparteExperiencia" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        
+      </div>
+      <div class="modal-body">
+        <h3 class="modal-title" id="myModalLabel">Tu experiencia es importante</h3>
+        <p>
+          Nadie debe avergonzarse de cometer errores. Nuestra educación nos ha llevado a temer el fracaso por encima de todo y esconder cada una de nuestras meteduras de pata a salvo del reproche de nuestros jueces y verdugos.
+        </p>
+        {# <p>
+          Este miedo a ser juzgados nos lleva a invertir todas nuestras energías en maquillar y aparentar: pasamos por la vida aprendiendo a parecer en lugar de ser.
+        </p> #}
+        <p>
+          Necesitamos aprender que el error es parte incuestionable del aprendizaje, librarnos del peso del ridículo y compartir nuestra experiencia.
+        </p> 
+      </div>
+      <div class="modal-footer">
+        <p>
+          ¿Quieres compartir tu experiencia con nosotros? Envíanos un correo a <a class="link" href="mailto:hola@evitaunerror.com">hola@evitaunerror.com</a> con tu artículo y lo publicaremos. 
+        </p>
+        <button type="button" data-dismiss="modal" class="btn purple">Entendido</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- Modal solicita -->
+<div class="modal fade" id="solicita" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        
+      </div>
+      <div class="modal-body">
+        <h3 class="modal-title" id="myModalLabel">Solicita invitación</h3>
+        <p>
+          ¿Quieres compartir tu experiencia con nosotros? Solicita una invitación con tu cuenta de correo electrónico y antes de lo que esperas te invitaremos a participar en nuestra comunidad.
+        </p>
+      </div>
+      <div class="modal-footer">
+        {# <p>
+          <a class="link" href="mailto:hola@evitaunerror.com">Mi correo es...</a> 
+        </p>
+        <button type="button" data-dismiss="modal" class="btn purple">Sí, quiero una invitación</button> #}
+        {{function('do_shortcode', '[contact-form-7 id="158" title="Formulario de contacto 1_copy"]')}}
+      </div>
+    </div>
+  </div>
+</div>

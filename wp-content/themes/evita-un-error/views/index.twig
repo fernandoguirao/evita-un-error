@@ -1,10 +1,14 @@
 {% extends "base.twig" %}
 
 {% block content %}
-	<h2>{{foo}}</h2>
-	<p>{{qux}}</p>
-	{% for post in posts %}
-		{% include ['tease-'~post.post_type~'.twig', 'tease.twig'] %}
-	{% endfor %}
+  
+  <div style="background-image:url('{{theme.link}}/assets/images/banner.png');" class="banner">
+  </div>
+  {% for post in posts %}
+    {# {% include ['tease-'~post.post_type~'.twig', 'tease.twig'] %} #}
+    {% include '/pages/home/home.twig' %}
+  {% endfor %}
+
+	 {# {% include '/pages/home/home.twig' %} #}
 
 {% endblock %}

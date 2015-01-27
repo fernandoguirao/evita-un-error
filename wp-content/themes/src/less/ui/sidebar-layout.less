@@ -3,6 +3,9 @@ body {
 }
 
 #main-layout {
+  section {
+    min-height: 338px;
+  }
   .sidebar {
     width:30%;
     height:100%!important;
@@ -60,6 +63,10 @@ body {
         &.purple {
           color:@dark2!important;
           font-weight:bolder;
+          padding:15px 42px 9px;
+          &:hover {
+            color:white!important;
+          }
         }
       }
     }
@@ -127,7 +134,7 @@ body {
     top: 11px;
     position: relative;
     text-align: center;
-    p {
+    p,p a {
       font-size:13px;
       .font(@altfont,regular,bolder);
       color:@gray2;

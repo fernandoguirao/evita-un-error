@@ -1,0 +1,85 @@
+.modal {
+  a.link {
+    color:@purple;
+    /*font-weight: bolder;*/
+    font-size: 20px;
+    margin:0;
+  }
+  .modal-header {
+    border:0;
+  }
+  .modal-body {
+    border:0;
+    padding: 27px 72px 27px;
+    font-family: @altfont;
+    background: white;
+    position: relative;
+    z-index: 1;
+    p,a,h3 {
+      font-family: @altfont;
+    }
+    p {
+      line-height: 1.35;
+      font-size:19px;
+    }
+    
+    h3 {
+      font-size:25px;
+      margin-bottom:15px;
+    }
+  }
+  .modal-footer {
+    background-color: rgba(0,0,0,.05);
+    text-align: center;
+    border:0;
+    padding-bottom: 25px;
+    padding-top: 0;
+    margin-top: -9px;
+    padding-left:0;
+    padding-right:0;
+    font-family: @altfont;
+    margin-top: -114px;
+    .transition(margin-top,.5s);
+    p {
+      text-align: left;
+      padding:27px 72px 9px;
+      font-family: @altfont;
+    }
+  }
+
+  .btn {
+    font-size:20px;
+  }
+  &.in {
+    .modal-footer {
+      margin-top:0;
+    }
+  }
+
+  .wpcf7-form {
+    .emaildiv {
+      margin-top: 30px;
+      label {
+        font-weight: normal;
+        font-size: 19px;
+        margin-right: 13px;
+        font-family: @altfont;
+      }
+    }
+    input[type="email"]{
+      background-color:transparent;
+      border:none;
+      border-bottom:1px solid @dark;
+      color:@dark;
+      font-size: 18px;
+      width: 45%;
+      font-family: @altfont;
+    }
+    input[type="submit"]{
+      margin: 0 auto;
+      display: inherit;
+      margin-bottom: -26px;
+      padding: 16px 43px;
+    }
+  }
+}

@@ -1,0 +1,25 @@
+<div id="sidebar" class="sidebar col-sm-3">
+  <a href="{{ site.url }}">
+    <div class="img-logo"></div>
+  </a>
+  <p class="quote">“El único hombre que no se equivoca es el que nunca hace nada.”</p>
+  <p class="quote">–GOETHE</p>
+  <div id="sidemenu">
+    <a class="btn dark2 btn-block" href="{{ site.url }}">Todas las experiencias</a>
+    <a class="btn dark2 btn-block" href="{{ site.url }}/popular">Las más útiles</a>
+    {% if status == 'logged' %}
+      <a class="btn purple btn-block" href="{{site_url}}/comparte-tu-experiencia/?task=new">Tu experiencia</a>
+    {% else %}
+      <a class="btn purple btn-block" data-toggle="modal" data-target="#comparteExperiencia">Tu experiencia</a>
+    {% endif %}
+  </div>
+
+  <form id="search" method="get" action="{{ site.url }}/">
+    <div class="form-group">
+      <div class="input-group">
+        <div class="input-group-addon"><span class="glyphicon glyphicon-search"></span></div>
+        <input type="text" value="" name="s" id="s" placeholder="Busca un error" class="form-control">
+      </div>
+    </div>
+  </form>
+</div>

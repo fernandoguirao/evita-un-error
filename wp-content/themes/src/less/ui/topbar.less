@@ -21,6 +21,7 @@
   ul.nav {
     right: 0;
     position: absolute;
+    
     .user {
       margin-right: 28px;
       .avatar {
@@ -56,5 +57,34 @@
         left: 19px;
       }
     }
+    .dropdown-menu {
+      li a {
+        font-family: @altfont;
+        text-transform: uppercase;
+      }
+    }
+    li a {
+      height: 50px;
+      padding-top: 14px!important;
+      &.links {
+        color: white;
+        margin: 0 14px;
+        font-size: 18px;
+        font-family: @altfont;
+        padding-bottom:0px;
+        padding-left:0;
+        padding-right:0;
+        height:38px;
+        &:hover {
+          background-color:transparent!important;
+          border-bottom:1px solid white;
+        }
+      }
+    }
+  }
+  @media(max-width:@screen-xs-max){
+    position: fixed;
+    width: 93%;
+    top: 0;
   }
 }
