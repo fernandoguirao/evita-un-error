@@ -17,6 +17,7 @@ body {
     text-align: center;
     z-index:2;
     .transition(margin-left,.2s,ease-in);
+    
     &.collapse.in {
       margin-left:0;
     }
@@ -29,6 +30,9 @@ body {
     @media(max-width:@screen-xs-max){
       width:100%;
       margin-left:-100%;
+    }
+    @media(max-height:688px){
+      padding-top:70px;
     }
     .img-logo {
       display: inline-block;
@@ -45,12 +49,21 @@ body {
       @media(max-width:@screen-sm-max){
         font-size:16px;
       }
+      @media(max-width:@screen-xs-max){
+        display: none;
+      }
+      @media(max-height:688px){
+        display: none;
+      }
     }
     .btn {
       text-transform: uppercase;
     }
     #sidemenu {
       margin-top:61px;
+      @media(max-height:688px){
+        margin-top:24px;
+      }
       .btn {
         font-size:14.5px;
         padding: 12px 42px;
